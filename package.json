@@ -1,0 +1,28 @@
+{
+    "name": "theme",
+    "displayName": "tomato_theme",
+    "description": "my theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tomato THEME",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tomato THEME-color-theme.json"
+            }
+        ],
+        "grammars": [
+          {
+            "scopeName": "tomato.injection",
+            "path": "./syntaxes/tomato-c-cpp.tmLanguage.json",
+            "injectTo": ["source.c", "source.cpp"]
+          }
+        ]
+    }
+}

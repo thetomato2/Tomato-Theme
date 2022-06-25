@@ -1,0 +1,10 @@
+{
+    "scopeName": "tomato.injection",
+    "injectionSelector": "L:source.c, L:source.cpp",
+    "patterns": [
+        {
+            "name": "entity.name.type.builtin.cpp",
+            "match": "s32\\s"
+        }
+    ]
+}
